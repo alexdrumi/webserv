@@ -1,3 +1,10 @@
+<div align="center">
+  <a href="https://github.com/alexdrumi/webserv">
+    <img src="data/www/webserver.jpg" alt="MNE EEG Logo" width="550" height="250">
+  </a>
+</div>
+
+
 # WEBSERV
 > A lightweight, C++98-based web server, inspired by how Nginx handles basic HTTP functionality.
 
