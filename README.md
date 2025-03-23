@@ -1,5 +1,5 @@
 # WEBSERV
-> Webserv aims to create a fully functional web server written in C++98.
+> A lightweight, C++98-based web server, inspired by how Nginx handles basic HTTP functionality.
 
 <br>
 
@@ -17,15 +17,18 @@
 
 
 ## General Information
-- The primary role of the web server is to store, process and deliver requested information to the end users.
-- By building a web server, we could gain a deep understanding of the HTTP protocol, websockets and the Common Gateway Interface (CGI).
+Webserv is a hand-crafted web server designed to mimic some of the fundamental behavior of Nginx-handling requests, serving static files, and invoking external scripts. By reimplementing these core features, we provide an immersive learning experience about:<br>
+
+- The HTTP protocol (verbs, headers, status codes).<br>
+- WebSockets and CGI (Common Gateway Interface).<br>
+- HTML5 and CSS (for basic web pages)System-level details like sockets, blocking vs. non-blocking I/O, and poll-based concurrency.<br>
 
 
 ## Technologies Used
-- C++98
-- Python3
-- HTML5
-- CSS
+- C++98 (core language)
+- Python3 (for CGI scripts)
+- HTML5 and CSS (for basic web pages)
+
 
 ## Features
 - HTTP requests: GET, POST, DELETE 
