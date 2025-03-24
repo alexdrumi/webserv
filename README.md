@@ -64,6 +64,7 @@ Or after make, provide your own custom .conf file.
 
 `make && ./webserv you_own_conf_file`
 
+### Once the server is running with the default.conf config file, you can reach it at: localhost:80
 
 ## Sources
 - [What is a socket](https://beej.us/guide/bgnet/html/index-wide.html#:~:text=2-,What%20is%20a%20socket%3F,-You%20hear%20talk)
