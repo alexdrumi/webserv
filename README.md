@@ -5,13 +5,11 @@
 </div>
 
 
-# WEBSERV
-> A lightweight, C++98-based web server, inspired by how Nginx handles basic HTTP functionality.
+# Habit Tracker CLI
+A Habit Tracker CLI application built with Django that leverages OOP and design pattern principles to manage users, habits, goals, progress, and reminders.
+
 
 <br>
-
-[![C/C++ CI MacOS](https://github.com/xvoorvaa/webserv/actions/workflows/macos_comp.yml/badge.svg)](https://github.com/xvoorvaa/webserv/actions/workflows/macos_comp.yml)
-[![Catch2 Unit Tester (MacOs)](https://github.com/xvoorvaa/webserv/actions/workflows/Catch2_unit_tester.yml/badge.svg)](https://github.com/xvoorvaa/webserv/actions/workflows/Catch2_unit_tester.yml)
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -24,23 +22,37 @@
 
 
 ## General Information
-Webserv is a hand-crafted web server designed to mimic some of the fundamental behavior of Nginx-handling requests, serving static files, and invoking external scripts. By reimplementing these core features, we provide an immersive learning experience about:<br>
+Habit Tracker CLI is a command-line application that helps users monitor and improve their daily habits. It uses Django as its backend framework and implements object-oriented design patterns—such as the repository, service, and controller patterns—to ensure the code is modular, testable, and maintainable. The project allows you to:<br>
 
-- The HTTP protocol (verbs, headers, status codes).<br>
-- WebSockets and CGI (Common Gateway Interface).<br>
-- HTML5 and CSS (for basic web pages)System-level details like sockets, blocking vs. non-blocking I/O, and poll-based concurrency.<br>
+- Create, update, and delete user accounts.<br>
+- Set up daily or weekly habits..<br>
+- Define goals for each habit.
+- Track progress with timestamps and streak calculations.
+- Generate reminders and perform basic analytics.
+
+.<br>
 
 
 ## Technologies Used
-- C++98 (core language)
-- Python3 (for CGI scripts)
-- HTML5 and CSS (for basic web pages)
+- Python 3.8+ – Primary language for the CLI and business logic.
+- Django – Backend framework for managing models and migrations.
+- MySQL/MariaDB – Database engine.
+- Click - For building the command-line interface.
+- Pytest - Unit testing framework for all repositories/services.
+  
 
 
 ## Features
-- HTTP requests: GET, POST, DELETE 
-- File upload via POST request
-- CGI - displaying a page via the python interpreter
+- User Management: Create, update, delete, and validate users.
+- Habit Management: Add and modify daily/weekly habits.
+- Goal Setting: Define goals for each habit.
+- Progress Tracking: Record progress entries with timestamps and compute streaks.
+- Reminders & Analytics: Set up reminders and view habit analytics.
+- CLI Interface: Interact with the application through a command-line interface.
+
+
+
+
 - Directory listing
 
 
@@ -51,10 +63,9 @@ Webserv is a hand-crafted web server designed to mimic some of the fundamental b
 
 ## Setup
 Requirements are:
-- C++98
-- Python3 (/usr/local/bin/python3)
-- Mozilla Firefox
-- Config file
+- Docker
+- Python 3.8
+
 
 
 ## Usage
